@@ -9,7 +9,7 @@ $(document).ready(function () {
 
   var data = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [7, 8, 9 ] ];
 
-  var html = '<table><thead><tr>HEAD</tr></thead><tbody>';
+  var html = '<table class="table"><thead><tr>HEAD</tr></thead><tbody>';
   for (var i = 0, len = data.length; i < len; i++) {
     html += '<tr>';
     for (var j = 0, rowLen = data[i].length; j < rowLen; j++) {
